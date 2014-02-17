@@ -121,7 +121,7 @@ if (defined $q->param('user_name')) {
 # Test if username/PW are correct:
 if ($action eq 'save' or $action eq 'preview') {
     ($user_name,$password) = trim ($user_name,$password);
-    if ($user_name.$password eq 'orim1' or $user_name.$password eq 'nati26') {
+    if ($user_name.$password eq 'orimPASSWORDHERE' or $user_name.$password eq 'natiPASSWORDHERE') {
         #DEBUG "Username and PW OK  :)";
     } else {
         #DEBUG "Username and PW wrong  :(";
